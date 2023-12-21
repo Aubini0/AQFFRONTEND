@@ -1,0 +1,101 @@
+.signin {
+  color: #664a09;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: 45.653px;
+  background: url('../../assets/holdhndart-21\ 1.png');
+  background-position: top right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .title {
+    color: #000;
+    text-align: center;
+    h2 {
+      font-weight: 500;
+    }
+    p {
+      color: #1a293dd4;
+      font-weight: 300;
+    }
+  }
+  form {
+    padding-top: 20vh;
+    width: 100%;
+    label {
+      font-size: 12px;
+      span {
+        color: #ff0000;
+      }
+    }
+    .form-control {
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      input[type='email'] {
+        background-color: transparent;
+        margin: 5px 0;
+        align-self: stretch;
+        padding: 15px;
+        font-size: 18px;
+        outline: none;
+        border: 1px solid #1c375a29;
+        border-radius: 8px;
+        &:focus {
+          border: 1px solid #664a09;
+        }
+      }
+      .password {
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        border: 1px solid #1c375a29;
+        border-radius: 8px;
+        width: 100%;
+        &:focus-within {
+          border: 1px solid #664a09;
+        }
+        .icon {
+          cursor: pointer;
+        }
+        input {
+          background-color: transparent;
+          margin: 5px 0;
+          align-self: stretch;
+          padding: 10px;
+          font-size: 18px;
+          outline: none;
+          border: none;
+          width: 92%;
+        }
+      }
+    }
+  }
+
+  .btn {
+    width: 180px;
+    margin: 30px auto;
+    .btn-signin {
+      background-color: #664a09;
+      opacity: 0.5;
+      width: 100%;
+      margin: 30px auto;
+      border: none;
+      padding: 20px;
+      color: #fff;
+      border-radius: 100px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import './onboarding/onbording.scss';
+@import './onboarding/onboardingnext.scss';
+@import './signup/signup.scss';
+@import './signin/signin.scss';
+@import './splashscreen/splashscreen.scss';
+@import './home/home.scss';
+@import './home/challenge.scss';
+@import './home/challenge2.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 100vw;
+  margin: auto;
+  background: #eae6dd;
+  font-family: sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+}

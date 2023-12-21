@@ -1,0 +1,46 @@
+.on-boarding-next{
+    color: #664A09;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    .hero{
+        background: url("../../assets/holdhndart-21\ 1.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        padding-top: 40vh;
+        h1{
+            font-size: 30px;
+            text-align: left;
+            padding-left: 20px;
+            color: #227FA2;
+        }
+    }
+    .btn-signup{
+        background-color: #227FA2;
+        width: 90%;
+        margin: 30px auto;
+        border: none;
+        padding: 10px;
+        color: #fff;
+        border-radius: 10px;
+  }
+  .bottom{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        color: #000;
+    }
+    .btn-signin{
+        background-color: #F57156;
+        border: none;
+        padding: 10px;
+        color: #fff;
+        border-radius: 10px;
+    }
+  }
+}
+  

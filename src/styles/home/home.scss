@@ -1,0 +1,44 @@
+.home {
+  width: 100%;
+  color: #664a09;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15vh;
+  align-self: stretch;
+  border-radius: 45.653px;
+
+  .name {
+
+  font-family: serif;
+  }
+  h1 {
+    font-size: 90px;
+    font-weight: 500;
+  }
+  .choice {
+    background-color: #664a09;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 30px;
+    button {
+      margin: 5px auto;
+      width: 90%;
+      padding: 10px;
+      font-size: 15px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .c-one {
+      background-color: #227fa2;
+    }
+    .c-two {
+      background-color: #c6a9fe;
+    }
+  }
+}

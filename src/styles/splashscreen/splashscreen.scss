@@ -1,0 +1,28 @@
+.my-swiper {
+  width: 100%;
+  background-color: #664A09;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  .swiper-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+  }
+  .swiper-image {
+    img {
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+    }
+  }
+  .swiper-pagination-bullet {
+    background-color: #fff !important;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #fff !important;
+  }
+}
