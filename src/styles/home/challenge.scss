@@ -40,6 +40,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 5px;
+    width: 45%;
+
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
     div {
       padding: 10px;
       border-radius: 20px;
@@ -67,12 +72,16 @@
   }
   .btn-next {
     background-color: #664a09;
-    width: 90%;
+    width: 20%;
     margin: auto;
     border: none;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+
+  @media only screen and (max-width: 800px) {
+    width: 90%;
+  }
   }
 }

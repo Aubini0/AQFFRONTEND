@@ -1,6 +1,5 @@
 .challenge2 {
   width: 100%;
-  height: 100vh;
   color: #664a09;
   text-align: center;
   padding: 20px;
@@ -37,10 +36,10 @@
   }
   .feel-container {
     display: grid;
-    grid-template-columns: repeat(4, 60px);
+    grid-template-columns: repeat(4, 50px);
     justify-content: center;
     align-items: center;
-    gap: 5vw;
+    gap: 3vw;
     div {
       border-radius: 50px;
       // padding: 2px 20px;
@@ -68,12 +67,16 @@
   }
   .btn-next {
     background-color: #664a09;
-    width: 90%;
+    width: 20%;
     margin: auto;
     border: none;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+
+    @media only screen and (max-width: 800px) {
+      width: 90%;
+    }
   }
 }

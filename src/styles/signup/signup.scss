@@ -7,6 +7,11 @@
   gap: 20px;
   align-self: stretch;
   border-radius: 45.653px;
+  width: 40%;
+  margin: auto;
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+  }
   h2 {
     font-size: 18px;
   }
@@ -26,6 +31,10 @@
   }
   form {
     width: 100%;
+    margin-top: 50px;
+    @media only screen and (max-width: 800px) {
+      margin: 0;
+    }
     label {
       font-size: 12px;
       span {
