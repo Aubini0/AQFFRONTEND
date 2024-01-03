@@ -1,105 +1,114 @@
+.container {
+  width: 100%;
+  background-color: white;
+}
 .signin {
-  color: #664a09;
-  padding: 40px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  gap: 20px;
-  align-self: stretch;
-  border-radius: 45.653px;
-  background: url('../../assets/holdhndart-21\ 1.png');
-  background-position: top right;
-  background-size: contain;
+  height: 100vh;
+  color: #664a09;
+  background-image: url("../../assets/holdhndart-21\ 1.png");
+  background-position: right;
   background-repeat: no-repeat;
-  text-align: center;
-  h2 {
-    font-size: 18px;
-  }
-  p {
-    font-size: 12px;
-  }
-  .title {
-    color: #000;
-    text-align: center;
-    h2 {
-      font-weight: 500;
-    }
-    p {
-      color: #1a293dd4;
-      font-weight: 300;
-    }
-  }
-  form {
-    padding-top: 20vh;
-    width: 40%;
-    @media only screen and (max-width: 800px) {
-      width: 100%;
-    }
-    label {
-      font-size: 12px;
-      span {
-        color: #ff0000;
-      }
-    }
-    .form-control {
-      margin: 10px 0;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      input[type='email'] {
-        background-color: transparent;
-        margin: 5px 0;
-        align-self: stretch;
-        padding: 15px;
-        font-size: 18px;
-        outline: none;
-        border: 1px solid #1c375a29;
-        border-radius: 8px;
-        &:focus {
-          border: 1px solid #664a09;
-        }
-      }
-      .password {
-        margin: 10px 0;
-        display: flex;
-        align-items: center;
-        border: 1px solid #1c375a29;
-        border-radius: 8px;
-        width: 100%;
-        &:focus-within {
-          border: 1px solid #664a09;
-        }
-        .icon {
-          cursor: pointer;
-        }
-        input {
-          background-color: transparent;
-          margin: 5px 0;
-          align-self: stretch;
-          padding: 10px;
-          font-size: 18px;
-          outline: none;
-          border: none;
-          width: 92%;
-        }
-      }
-    }
-  }
+}
 
-  .btn {
-    width: 180px;
-    margin: 30px auto;
-    margin-top: 80px;
-    .btn-signin {
-      background-color: #664a09;
-      opacity: 0.5;
-      width: 100%;
-      margin: 30px auto;
-      border: none;
-      padding: 20px;
-      color: #fff;
-      border-radius: 100px;
-      cursor: pointer;
-    }
+.heading {
+  margin-top: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.signin-form {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.signin-email,
+.signin-password {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+.signin-email-label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0%;
+}
+.signin-email-input {
+  display: block;
+  padding: 0.7rem;
+  width: 100%;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #664a09;
+  border: 1px solid #bda367;
+  background: transparent;
+  &:focus {
+    border: 1px solid #664a09;
+  }
+}
+.signin-password {
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.signin-password-label {
+  display: block;
+  text-align: left;
+  margin: 0.5rem 0%;
+}
+
+.signin-password-input-container {
+  position: relative;
+}
+.signin-password-input {
+  display: block;
+  padding: 0.7rem;
+  width: 100%;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #664a09;
+  border: 1px solid #bda367;
+  &:focus {
+    border: 1px solid #664a09;
+  }
+}
+
+.signin-btn {
+  margin: 0 auto;
+  margin: 1rem;
+}
+.signin-btn button {
+  margin: 1rem;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: #c4a763;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  cursor: pointer;
+}
+@media only screen and (max-width: 500px) {
+  .signin-form {
+    width: 90%;
   }
 }
