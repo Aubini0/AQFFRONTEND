@@ -1,7 +1,7 @@
 .onbording {
   width: 60%;
   margin: auto;
-  color: #664a09;
+  color: $brownish;
   text-align: center;
   padding: 20px;
   padding-bottom: 0;
@@ -18,7 +18,7 @@
     margin-top: 0;
   }
   .btn-get-started {
-    background-color: #227fa2;
+    background-color: $blueish;
     width: 35%;
     margin: auto;
     border: none;

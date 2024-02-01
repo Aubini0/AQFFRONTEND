@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #664a09;
+  background-color: $brownish;
   padding: 1.5% 3vw;
   display: flex;
   justify-content: space-between;
@@ -29,7 +29,7 @@
     }
   }
   .active-nav {
-    color: #afd35e;
+    color: $greenish;
     transition: all ease-in-out 0.1s;
     .title {
       position: relative;
@@ -43,7 +43,7 @@
       transform: translateX(-50%);
       width: 3px;
       height: 3px;
-      background-color: #afd35e;
+      background-color: $greenish;
       border-radius: 50%;
     }
   }

@@ -1,22 +1,24 @@
-import './styles/App.scss'
-import Routers from './routes/Routers'
-import { useEffect, useState } from 'react'
-import size_error from './assets/size_error.jpg'
+import "./styles/App.scss";
+import Routers from "./routes/Routers";
+
+import { useEffect, useState } from "react";
+import size_error from "./assets/size_error.jpg";
 
 function App() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     const handleResize = () => {
-      setWindowWidth(window.innerWidth)
-    }
+      setWindowWidth(window.innerWidth);
+    };
 
-    window.addEventListener('resize', handleResize)
+    window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener('resize', handleResize)
-    }
-  }, [])
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className='App'>
       {windowWidth > 768 ? (
@@ -29,7 +31,7 @@ function App() {
         </div>
       )}
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

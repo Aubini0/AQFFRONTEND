@@ -1,0 +1,117 @@
+.community-detail {
+  width: 100%;
+  padding-bottom: 15vh;
+  color: #fff;
+  .cover {
+    position: relative;
+    img {
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    }
+  }
+  .time {
+    position: absolute;
+    background-color: $blueish;
+    bottom: 20px;
+    width: 70%;
+    padding: 10px;
+  }
+  .top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 15px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    .avatar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 38px;
+        height: 38px;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+    }
+    .more {
+      margin-left: auto;
+      font-size: 30px;
+    }
+  }
+  .details {
+    padding: 20px;
+    color: #000;
+    .title {
+      font-size: 1.8rem;
+    }
+    .by {
+      color: #917f87;
+      font-size: 0.9rem;
+      font-weight: 100;
+      margin-block: 5px;
+    }
+    .sub-title {
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+    .community-genre {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+      .round {
+        padding: 10px;
+        border-radius: 30px;
+        color: #fff;
+        font-size: 0.8rem;
+        white-space: nowrap;
+      }
+      .first {
+        background-color: $tomatoish;
+      }
+      .second {
+        background-color: $blueish;
+      }
+      .third {
+        background-color: $brownish;
+      }
+    }
+    .story {
+      color: #000;
+      font-size: 1rem;
+      margin-top: 20px;
+      line-height: 2rem;
+      font-weight: 100;
+    }
+    .react {
+      margin-top: 10px;
+      p {
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+      }
+      .reaction {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5px;
+        div {
+          background-color: #ddd7c9;
+          padding: 5px;
+          border-radius: 30px;
+          font-size: 0.8rem;
+        }
+        .icon {
+          font-size: 1.5rem;
+          color: #917f87;
+        }
+      }
+    }
+  }
+}

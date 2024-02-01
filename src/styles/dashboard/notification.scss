@@ -1,0 +1,97 @@
+.dashboard-notification {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+  background-color: #fbf9f9;
+  font-size: 1rem;
+  margin: auto;
+
+  @media (min-width: 610px) and (max-width: 800px) {
+    width: 80%;
+  }
+}
+.dashboard-btn {
+  width: 100%;
+  display: flex;
+  padding-top: 1rem;
+}
+button {
+  font-size: 1.2rem;
+  padding: 1rem;
+  display: $blueish;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 5px solid white;
+  cursor: pointer;
+  color: #ac9b73;
+}
+.active {
+  border-bottom: 5px solid $blueish;
+  color: $blueish;
+}
+.notification-container {
+  display: flex;
+  background-color: #fbf9f9;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100%;
+  margin: 17.5px 0px;
+}
+.notification {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0px;
+  padding-right: 2%;
+  border: none;
+  border-bottom: 3px solid white;
+
+  .notification-type {
+    margin: 0 1rem;
+
+    .category-paragraph {
+      background-color: #ebe0c8;
+      border: none;
+      font-size: 0.78rem;
+      border-radius: 1rem;
+      padding: 0.3rem 0.5rem;
+    }
+  }
+}
+
+.notification-content {
+  display: flex;
+  .notification-img {
+    margin: 0 1rem;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+  }
+  .notification-text {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  .notification-time {
+    font-size: 0.8rem;
+    color: #ac9b73;
+  }
+}
+
+.perspective,
+.advice {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+}
+.advice {
+  border-radius: 1rem;
+}

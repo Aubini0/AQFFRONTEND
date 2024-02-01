@@ -12,15 +12,15 @@
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  color: #664a09;
-  background-image: url("../../assets/holdhndart-21\ 1.png");
+  color: $brownish;
+  background-image: url('../../assets/holdhndart-21\ 1.png');
   background-position: right;
   background-repeat: no-repeat;
 }
 
 .heading {
   margin-top: 2rem;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .signin-form {
   width: 70%;
@@ -48,11 +48,11 @@
   outline: none;
   border-radius: 0.5rem;
   font-size: 1rem;
-  color: #664a09;
+  color: $brownish;
   border: 1px solid #bda367;
   background: transparent;
   &:focus {
-    border: 1px solid #664a09;
+    border: 1px solid $brownish;
   }
 }
 .signin-password {
@@ -78,10 +78,10 @@
   outline: none;
   border-radius: 0.5rem;
   font-size: 1rem;
-  color: #664a09;
+  color: $brownish;
   border: 1px solid #bda367;
   &:focus {
-    border: 1px solid #664a09;
+    border: 1px solid $brownish;
   }
 }
 

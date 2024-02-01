@@ -1,0 +1,114 @@
+.profile {
+  margin: auto;
+  padding: 1.2rem;
+  width: 100%;
+  height: 100%;
+
+  @media (min-width: 610px) and (max-width: 800px) {
+    width: 80%;
+  }
+
+  .profile-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0;
+    text-transform: uppercase;
+
+    svg {
+      position: absolute;
+      left: 1.2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+    }
+  }
+
+  .edit-container {
+    overflow-y: scroll;
+    margin-bottom: 17.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    position: relative;
+
+    .tag-container {
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: fit-content;
+      margin-bottom: 1rem;
+
+      h3 {
+        color: $blueish;
+        font-size: 1.5rem;
+        margin: 0.75rem 0;
+      }
+
+      .tag {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        span {
+          padding: 0.7rem 1rem;
+          border-radius: 50px;
+          background-color: $brownish;
+          color: #fff;
+          font-size: 0.85rem;
+        }
+      }
+    }
+  }
+
+  .avatar {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .edit-btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: gainsboro;
+    border-radius: 50%;
+    padding: 0.3rem 0.5rem;
+    border: 4px solid #fff;
+    cursor: pointer;
+  }
+
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 1rem;
+
+    div {
+      margin: 0.5rem 0;
+      position: relative;
+    }
+
+    label {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+
+    input {
+      color: $brownish;
+      font-size: 1.3rem;
+      font-weight: 400;
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      border: none;
+      background-color: transparent;
+      border-bottom: 1.5px solid #000;
+      outline: none;
+    }
+  }
+}

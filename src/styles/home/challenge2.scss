@@ -1,6 +1,6 @@
 .challenge2 {
   width: 100%;
-  color: #664a09;
+  color: $brownish;
   text-align: center;
   padding: 20px;
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
   gap: 10vh;
   align-self: stretch;
-  background: linear-gradient(169deg, #227fa2 0.53%, #83ddff 98.5%);
+  background: linear-gradient(169deg, $blueish 0.53%, #83ddff 98.5%);
   .header {
     align-self: stretch;
     h3 {
@@ -48,13 +48,13 @@
       }
     }
     .green {
-      background-color: #afd35e;
+      background-color: $greenish;
       color: #000;
       transition: all ease-in-out 0.3s;
       border: 1px solid #fff;
     }
     .normal {
-      background-color: #664a09;
+      background-color: $brownish;
       color: #fff;
       transition: all ease-in-out 0.3s;
       border: 1px solid transparent;
@@ -66,7 +66,7 @@
     font-family: serif;
   }
   .btn-next {
-    background-color: #664a09;
+    background-color: $brownish;
     width: 20%;
     margin: auto;
     border: none;

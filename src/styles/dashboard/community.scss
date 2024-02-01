@@ -1,0 +1,86 @@
+.community-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 0.85rem 0.5rem;
+  width: 100%;
+  margin: auto;
+  color: #fff;
+
+  @media (min-width: 610px) and (max-width: 800px) {
+    width: 70%;
+  }
+}
+
+.community-btn {
+  width: 100%;
+  display: flex;
+  border-radius: 1.2rem;
+  background-color: #664a09;
+
+  button {
+    width: 50%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    border-radius: 1.2rem;
+    border: transparent;
+    background-color: transparent;
+    color: #eae6dd;
+    cursor: pointer;
+  }
+  .active {
+    color: #664a09;
+    background-color: #fff;
+  }
+}
+
+.community-grid {
+  position: relative;
+  margin: 17.5px 0;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.community-grid-item {
+  position: relative;
+  height: 32vh;
+}
+
+.community-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  border-radius: 1rem;
+}
+h3 {
+  font-weight: 400;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+.community-text-paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  p {
+    font-size: 6px;
+    background-color: #664a09;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 1rem;
+  }
+}

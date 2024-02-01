@@ -1,3 +1,4 @@
+@import 'variable';
 @import './onboarding/onbording.scss';
 @import './onboarding/onboardingnext.scss';
 @import './signup/signup.scss';
@@ -9,11 +10,18 @@
 @import './dashboard/navbar.scss';
 @import './dashboard/dashboard.scss';
 @import './dashboard/dashboardhome.scss';
+@import './dashboard/stories.scss';
+@import './dashboard/community.scss';
+@import './dashboard/communitydetail.scss';
+@import './dashboard/profile.scss';
+@import './dashboard/notification.scss';
+@import './dashboard/communitysetting.scss';
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   max-width: 100vw;
   margin: auto;
@@ -29,6 +37,7 @@ body {
   margin-top: 5vh;
   width: 100%;
   height: 100%;
+
   img {
     width: 100%;
     height: auto;

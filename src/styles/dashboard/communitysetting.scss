@@ -1,0 +1,114 @@
+.community-setting {
+  color: #fff;
+  padding: 0 !important;
+  .setting-overlay {
+    background: linear-gradient(180deg, #664a09 0%, #291d00 100%) !important;
+    backdrop-filter: blur(2px);
+    color: #fff;
+  }
+  .bar {
+    background-color: #4b3508;
+    width: 40px;
+    height: 8px;
+    margin: auto;
+    border-radius: 50px;
+  }
+  .modal-content {
+    margin: 0 !important;
+    background: transparent !important;
+    max-width: 100% !important;
+    height: 100vh;
+    box-shadow: none !important;
+    display: block !important;
+    .thumbnail {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 5vh;
+      h2 {
+        font-weight: 500;
+        margin-block: 10px;
+      }
+      img {
+        border-radius: 30px;
+        height: 20vh;
+        object-fit: cover;
+      }
+    }
+    .detail {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      img {
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+      }
+      .state {
+        font-size: 18px;
+        font-weight: 500;
+        margin-block: 5px;
+      }
+      .genre {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-block: 3px;
+        span {
+          font-size: 11px;
+          background-color: #664a09;
+          padding: 8px;
+          border-radius: 50px;
+          white-space: nowrap;
+        }
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .buttons {
+      button {
+        margin-block: 10px;
+        background-color: #eae6dd;
+        border-bottom: none;
+        color: #664a09;
+        text-align: left;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 10px;
+      }
+    }
+    .switch {
+      margin-block: 15px;
+      border-radius: 50px;
+      background-color: #664a09;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        border-radius: 50px;
+        padding: 8px 10px;
+        text-align: center;
+        transition: all ease-in-out 0.3s;
+      }
+      .active-switch {
+        background-color: #eae6dd;
+        color: #664a09;
+      }
+    }
+    .close {
+      margin-top: 20px;
+      button {
+        border: none;
+        color: #eae6dd;
+      }
+    }
+  }
+}

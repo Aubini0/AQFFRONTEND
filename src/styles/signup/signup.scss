@@ -1,5 +1,5 @@
 .signup {
-  color: #664a09;
+  color: $brownish;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
         outline: none;
         border: 1px solid #1c375a29;
         &:focus {
-          border: 1px solid #664a09;
+          border: 1px solid $brownish;
         }
       }
       .password {
@@ -65,7 +65,7 @@
         border: 1px solid #1c375a29;
         width: 100%;
         &:focus-within {
-          border: 1px solid #664a09;
+          border: 1px solid $brownish;
         }
         .icon {
           cursor: pointer;
@@ -94,7 +94,7 @@
     }
   }
   .btn-signup {
-    background-color: #227fa2;
+    background-color: $blueish;
     width: 100%;
     margin: 30px auto;
     border: none;
